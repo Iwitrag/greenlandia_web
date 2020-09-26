@@ -1,0 +1,8 @@
+# cachovani
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 0 seconds"
+    <FilesMatch "^(bootstrap.min.css)$">
+        ExpiresDefault "access plus 1 year"
+    </FilesMatch>
+</IfModule>

@@ -1,0 +1,9 @@
+# cachovani
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 0 seconds"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/bmp "access plus 1 month"
+</IfModule>

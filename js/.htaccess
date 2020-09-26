@@ -1,0 +1,6 @@
+# cachovani
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 0 seconds"
+    ExpiresByType text/javascript "access plus 1 month"
+</IfModule>
